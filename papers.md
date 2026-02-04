@@ -1,9 +1,11 @@
 ---
+layout: page
 title: Papers
 subtitle: "Peer-reviewed publications, preprints, and selected talks."
+permalink: /papers/
 ---
 
-<ul class="list-plain">
+<ul class="timeline">
   {% for pub in site.data.publications %}
   <li>
     <strong>{{ pub.title }}</strong><br>

@@ -1,6 +1,8 @@
 ---
+layout: page
 title: Projects
 subtitle: "Research prototypes, open-source tools, and applied systems."
+permalink: /projects/
 ---
 
 <div class="card-grid">
@@ -22,9 +24,9 @@ subtitle: "Research prototypes, open-source tools, and applied systems."
       {% endfor %}
     </div>
     <div class="tag-list">
-      {% if project.links.github %}<a class="tag" href="{{ project.links.github }}">GitHub</a>{% endif %}
-      {% if project.links.demo %}<a class="tag" href="{{ project.links.demo }}">Demo</a>{% endif %}
-      {% if project.links.paper %}<a class="tag" href="{{ project.links.paper }}">Paper</a>{% endif %}
+      {% if project.links.github %}<a class="tag alt" href="{{ project.links.github }}">GitHub</a>{% endif %}
+      {% if project.links.demo %}<a class="tag alt" href="{{ project.links.demo }}">Demo</a>{% endif %}
+      {% if project.links.paper %}<a class="tag alt" href="{{ project.links.paper }}">Paper</a>{% endif %}
     </div>
   </div>
   {% endfor %}

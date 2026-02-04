@@ -1,6 +1,8 @@
 ---
+layout: page
 title: Experience
 subtitle: "Academic positions, industry internships, and leadership roles."
+permalink: /experience/
 ---
 
 <div class="card-grid">

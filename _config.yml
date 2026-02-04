@@ -9,15 +9,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-permalink: /:title/
-
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-      permalink: /:name/
+permalink: pretty
 
 # Build settings
 sass:

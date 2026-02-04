@@ -5,12 +5,18 @@ title: Home
 
 <section class="hero">
   <div class="hero-card">
+    <p class="eyebrow">Researcher · Builder · Collaborator</p>
     <h1>{{ site.profile.name }}</h1>
     <p class="lead">
-      {{ site.profile.title }} at {{ site.profile.affiliation }}. I build practical,
-      human-centered AI systems with a focus on reliability, interpretability, and
-      real-world deployment.
+      {{ site.profile.title }} at {{ site.profile.affiliation }}. I design and deploy
+      human-centered AI systems with an emphasis on reliability, interpretability, and
+      real-world impact.
     </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ '/resume/' | relative_url }}">Download CV</a>
+      <a class="btn btn-ghost" href="mailto:{{ site.profile.email }}">Email</a>
+      <a class="btn btn-ghost" href="{{ site.profile.scholar }}">Scholar</a>
+    </div>
     <div class="callout">
       Open to research collaborations, speaking invitations, and industry partnerships.
       Reach me at <a href="mailto:{{ site.profile.email }}">{{ site.profile.email }}</a>.
@@ -28,9 +34,33 @@ title: Home
       <span class="tag">LLMs</span>
       <span class="tag">HCI</span>
       <span class="tag">ML Systems</span>
-      <span class="tag">Retrieval</span>
+      <span class="tag alt">Retrieval</span>
     </div>
   </aside>
+</section>
+
+<section class="section">
+  <div class="section-title">
+    <h2>Research Snapshot</h2>
+  </div>
+  <div class="stats-grid">
+    <div class="stat">
+      <div class="stat-number">12</div>
+      <div class="stat-label">Publications</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">4</div>
+      <div class="stat-label">Open-Source Tools</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">7</div>
+      <div class="stat-label">Industry Partners</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">3</div>
+      <div class="stat-label">Active Grants</div>
+    </div>
+  </div>
 </section>
 
 <section class="section">
@@ -38,7 +68,7 @@ title: Home
     <h2>Selected Papers</h2>
     <a href="{{ '/papers/' | relative_url }}">View all</a>
   </div>
-  <ul class="list-plain">
+  <ul class="timeline">
     {% for pub in site.data.publications limit:2 %}
     <li>
       <strong>{{ pub.title }}</strong><br>
