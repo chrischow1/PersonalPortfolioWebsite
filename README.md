@@ -1,4 +1,4 @@
-# JPL11.github.io
+# chrischow1.github.io
 
 Academic portfolio site built with Jekyll (al-folio-inspired).
 
