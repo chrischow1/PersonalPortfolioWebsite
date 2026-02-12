@@ -1,11 +1,12 @@
+# _config.yml
 # Jekyll site config
 
 title: "Chris Chow"
 description: >
-  The Personal Portfolio Website is a professional platform that showcases 
-  the user’s skills, projects, and academic background. It provides employers 
-  with an accessible, centralized overview of his/her qualifications using a clean 
-  and cost-efficient GitHub Pages framework.
+  The Personal Portfolio Website is a professional platform showcasing
+  Chris Chow’s skills, projects, and academic background. It provides
+  employers with a centralized overview of qualifications using a clean
+  and cost-efficient GitHub Pages setup.
 url: "https://chrischow1.github.io"
 baseurl: "/PersonalPortfolioWebsite"
 
@@ -22,7 +23,7 @@ permalink: pretty
 nav:
   - title: "Home"
     url: "/"
-  - title: "SKills"
+  - title: "Skills"
     url: "/skills/"
   - title: "Projects"
     url: "/projects/"
@@ -33,13 +34,13 @@ nav:
 
 # Profile info
 profile:
-  name: "Chris Chow"  
+  name: "Chris Chow"
   title: "M.S. Electrical Engineering Student"
   affiliation: "California State Polytechnic University, Pomona"
   education: "B.S. Electrical Engineering, California State University, Fullerton"
-  primary_email: "chriscc0719@gmail.com"
-  work_email: "ch0wcc19@gmail.com"
-  school_email: "chrischow1@cpp.edu"
+  email: "chriscc0719@gmail.com"        # Primary contact email (recommended)
+  work_email: "ch0wcc19@gmail.com"      # Optional: workplace or alternate
+  school_email: "chrischow1@cpp.edu"    # Optional: school email
   phone: "+1 (626) 679-7202"
   location: "Hacienda Heights, CA"
   linkedin: "https://www.linkedin.com/in/chris-chow-108b6b224"
@@ -48,3 +49,8 @@ profile:
 
 # Footer
 footer_note: "Updated February 2026"
+
+# NOTE:
+# If any of these fields don't show up on your site, your theme/layout probably
+# doesn't render them. To display new fields you may need to edit the template
+# (e.g., _includes/profile.html or _layouts/default.html).
