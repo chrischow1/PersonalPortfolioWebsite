@@ -1,0 +1,40 @@
+<!-- _includes/profile.html -->
+<div class="profile-card">
+  {% if site.profile.headshot %}
+    <img class="profile-headshot" src="{{ site.baseurl }}{{ site.profile.headshot }}" alt="{{ site.profile.name }} headshot">
+  {% endif %}
+
+  <h1 class="profile-name">{{ site.profile.name }}</h1>
+  <p class="profile-title">{{ site.profile.title }}</p>
+
+  {% if site.profile.affiliation %}
+    <p class="profile-affiliation">{{ site.profile.affiliation }}</p>
+  {% endif %}
+
+  {% if site.profile.education %}
+    <p class="profile-education">{{ site.profile.education }}</p>
+  {% endif %}
+
+  <ul class="profile-contacts">
+    {% if site.profile.email %}
+      <li>Email: <a href="mailto:{{ site.profile.email }}">{{ site.profile.email }}</a></li>
+    {% endif %}
+    {% if site.profile.work_email %}
+      <li>Work: <a href="mailto:{{ site.profile.work_email }}">{{ site.profile.work_email }}</a></li>
+    {% endif %}
+    {% if site.profile.school_email %}
+      <li>School: <a href="mailto:{{ site.profile.school_email }}">{{ site.profile.school_email }}</a></li>
+    {% endif %}
+    {% if site.profile.phone %}
+      <li>Phone: <a href="tel:{{ site.profile.phone | remove: ' ' | remove: '(' | remove: ')' | remove: '-' }}">{{ site.profile.phone }}</a></li>
+    {% endif %}
+    {% if site.profile.location %}
+      <li>Location: {{ site.profile.location }}</li>
+    {% endif %}
+  </ul>
+
+  <p class="profile-links">
+    {% if site.profile.linkedin %}<a href="{{ site.profile.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+    {% if site.profile.github %} {% if site.profile.linkedin %} | {% endif %}<a href="{{ site.profile.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+  </p>
+</div>
