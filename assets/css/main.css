@@ -322,9 +322,13 @@ img {
 
 .profile-card img {
   width: 100%;
-  border-radius: 16px;
+  max-width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
   background: var(--accent-soft);
   border: 1px solid var(--border);
+  align-self: center;
 }
 
 .profile-meta {
