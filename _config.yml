@@ -25,7 +25,7 @@ nav:
   - title: "Projects"
     url: "/projects/"
   - title: "Work Experience"
-    url: "/experience/"   # ✅ FIXED (was wrong before)
+    url: "/experience/"
   - title: "Resume"
     url: "/resume/"
 
