@@ -1,20 +1,46 @@
-- name: "Open Research Toolkit"
-  description: "A reproducible pipeline for data ingestion, experiment tracking, and paper-ready plots."
-  role: "Lead developer"
-  highlights:
-    - "Reduced experiment setup time from days to hours with standardized configs."
-    - "Automated LaTeX table and figure export for manuscripts."
-  tech: ["Python", "Docker", "MLflow"]
-  links:
-    github: "#"
-    demo: "#"
+- name: "SiC-Based 800 V-48 V DC/DC Converter for 800 VDC Architecture"
+  role: "Master's Project"
+  description: "Designed and simulated a high-efficiency isolated SiC-based DC/DC converter for 800 V to 48 V power conversion, comparing PSFB and DAB topologies for high-performance data center applications."
+  tech:
+    - "Power Electronics"
+    - "SiC Devices"
+    - "DC/DC Converters"
+    - "PSFB"
+    - "DAB"
+    - "Simulation"
 
-- name: "Human-in-the-Loop Annotation Studio"
-  description: "Web app for rapid labeling with active learning and quality controls."
-  role: "Full-stack engineer"
-  highlights:
-    - "Integrated uncertainty sampling and reviewer workflows."
-  tech: ["TypeScript", "React", "FastAPI"]
-  links:
-    github: "#"
-    paper: "#"
+- name: "Bidirectional DC-DC Converter for EV Chargers"
+  role: "Power Electronics Project"
+  description: "Designed and analyzed a bidirectional DC-DC converter for controlled power flow between grid and battery systems, with focus on efficiency, voltage regulation, switching behavior, and control performance."
+  tech:
+    - "Power Electronics"
+    - "EV Chargers"
+    - "Bidirectional Converters"
+    - "Control Systems"
+
+- name: "1.5 MW Wind Turbine Modeling and Simulation"
+  role: "Renewable Energy Systems Project"
+  description: "Developed a physics-based system-level model of a 1.5 MW wind turbine including mechanical dynamics, generator behavior, and power electronics, and simulated performance under variable wind conditions."
+  tech:
+    - "Renewable Energy"
+    - "Wind Energy"
+    - "System Modeling"
+    - "Power Electronics"
+
+- name: "SGSE Using GNNs under Communication Constraints"
+  role: "Power Systems and Machine Learning Project"
+  description: "Implemented graph neural network-based state estimation for power grids under limited communication bandwidth and analyzed the effects of communication constraints on estimation accuracy and grid observability."
+  tech:
+    - "Power Systems"
+    - "Graph Neural Networks"
+    - "State Estimation"
+    - "Machine Learning"
+
+- name: "TITAN Rover - Controls Subteam"
+  role: "Bachelor's Project"
+  description: "Developed system-level electrical and power architectures for a planetary rover, including onboard subsystems and base station interfaces, and created BOMs and technical documentation for system integration."
+  tech:
+    - "Electrical Systems"
+    - "Power Distribution"
+    - "Controls"
+    - "Documentation"
