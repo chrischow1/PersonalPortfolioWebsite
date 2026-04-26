@@ -5,7 +5,7 @@ title: Home
 
 <section class="hero">
   <div class="hero-card">
-    <p class="eyebrow">Researcher · Builder · Collaborator</p>
+    <p class="eyebrow">Power Electronics · Renewable Energy Systems · High-Efficiency Converter Design</p>
 
     <h1>{{ site.profile.name }}</h1>
 
