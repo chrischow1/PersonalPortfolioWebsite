@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume
-subtitle: "Download a PDF copy or view it inline."
+subtitle: "Download a PDF copy or view it online."
 permalink: /resume/
 ---
 
