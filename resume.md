@@ -7,7 +7,7 @@ permalink: /resume/
 
 <div class="card">
   <p>
-    <a class="btn btn-primary" href="{{ '/assets/Chris_Chow_Engineering_Resume___04_25_2026.pdf' | relative_url }}">
+    <a class="btn btn-primary" href="{{ '/assets/Chris_Chow_Engineering_Power_Electronics_Resume.pdf' | relative_url }}">
       Download Resume (PDF)
     </a>
     <a class="btn btn-ghost" href="mailto:{{ site.profile.email }}">
